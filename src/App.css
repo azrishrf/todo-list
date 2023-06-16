@@ -1,38 +1,85 @@
 .App {
-  text-align: center;
+    text-align: center;
+    padding: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-container input[type="text"] {
+    flex-grow: 1;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-container button {
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.input-container button:hover {
+    background-color: #256428;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sort-buttons-container button {
+    margin-left: 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
+
+.sort-buttons-container button:hover {
+    background-color: #266aa1;
+}
+.todo-container {
+    margin-top: 50px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.todo-list li input[type="text"] {
+    margin-right: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.todo-list li button {
+    margin-left: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.todo-list li button:hover {
+    background-color: #aa2a21;
+}
+
+/* .input-container button:hover,
+.sort-buttons-container button:hover,
+.todo-list li button:hover {
+    background-color: #45a049;
+} */
