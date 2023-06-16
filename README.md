@@ -8,7 +8,9 @@ This is a simple to-do list application built with React. It allows you to add, 
 
 ## Installation
 
-Install my-project with npm
+Before running the application, make sure you have Node.js installed on your machine. You'll also need to install the react-scripts package, which provides the necessary scripts for running the React application.
+
+To install react-scripts, open a terminal or command prompt and navigate to the project directory. Run the following command:
 
 ```bash
   npm install react-scripts
