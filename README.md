@@ -1,26 +1,34 @@
-Todo List Application
+# Todo List Application
+
 This is a simple to-do list application built with React. It allows you to add, edit, and delete tasks, as well as sort them alphabetically in ascending or descending order.
 
-Installation
-Before running the application, make sure you have Node.js installed on your machine. You'll also need to install the react-scripts package, which provides the necessary scripts for running the React application.
+## Authors
 
-To install react-scripts, open a terminal or command prompt and navigate to the project directory. Run the following command:
+-   [@azrishrf](https://www.github.com/azrishrf)
 
-Copy code
-npm install react-scripts
-Usage
-Clone or download this repository to your local machine.
+## Installation
 
-Open a terminal or command prompt and navigate to the project directory.
+Install my-project with npm
 
-Run the following command to start the development server:
+```bash
+  npm install react-scripts
+```
 
-sql
-Copy code
-npm start
+## Usage
+
+1. Clone or download this repository to your local machine.
+
+2. Open a terminal or command prompt and navigate to the project directory.
+
+3. Run the following command to start the development server:
+
+```bash
+  npm start
+```
+
 This will compile the code and open the application in your default browser.
 
-In the to-do list application, you can:
+4. In the to-do list application, you can:
 
 Enter a task in the input field and click the "Add" button to add it to the list.
 Edit a task by clicking on the task text and modifying it.
